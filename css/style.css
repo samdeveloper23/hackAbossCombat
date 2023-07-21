@@ -1,4 +1,9 @@
-body { margin:10px; background-image: url("../images/hack.jpg"); }
+body {
+  margin: 10px;
+  background-image: url("../images/hack.jpg");
+  background-size: cover; /* Para ajustar la imagen al tamaño de la pantalla */
+  background-repeat: no-repeat; /* Para evitar que la imagen se repita */
+}
 
 .container {
   width:800px;
